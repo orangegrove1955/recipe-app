@@ -1,8 +1,10 @@
 .recipe {
   display: flex;
   flex-direction: column;
+  justify-content: space-between;
   background: white;
   box-shadow: 0px 5px 20px black;
+  height: 100%;
 }
 
 .bottomRow {

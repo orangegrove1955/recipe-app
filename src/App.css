@@ -30,9 +30,10 @@
 .recipes {
   height: calc(100vh - 10vh);
   overflow: auto;
-  display: flex;
-  justify-content: space-evenly;
-  flex-wrap: wrap;
+  display: grid;
+  gap: 2rem;
+  padding: 0 1rem;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
 }
 
 a {
