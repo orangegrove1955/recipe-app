@@ -55,6 +55,17 @@ const App = () => {
           />
         ))}
       </div>
+      <div className="social">
+        <a href="https://github.com/orangegrove1955/recipe-app">
+          <i className="fas fa-code"></i>
+        </a>
+        <a href="https://orangegrove1955.github.io/">
+          <i className="fab fa-github"></i>
+        </a>
+        <a href="https://www.linkedin.com/in/matthew-t-williams/">
+          <i className="fab fa-linkedin"></i>
+        </a>
+      </div>
     </div>
   );
 };

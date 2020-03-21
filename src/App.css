@@ -40,3 +40,30 @@ a {
   text-decoration: none;
   color: black;
 }
+
+.social {
+  position: absolute;
+  display: flex;
+  top: 1rem;
+  right: 1rem;
+}
+
+.social > a {
+  margin: 0.5rem;
+  font-size: 1.5rem;
+}
+
+@media screen and (max-width: 600px) {
+  .recipes {
+    height: calc(100vh - 10vh - 3rem);
+  }
+  .social {
+    top: auto;
+    bottom: 0.5rem;
+    right: 50%;
+    transform: translate(50%);
+  }
+  .social > a {
+    margin-bottom: 0;
+  }
+}
